@@ -1,0 +1,13 @@
+
+To run the programs you must run the program in python 3 from the command line with the problem set formatted in an explicit way in an input file. They will not run on python 2. If you get errors at run time please make sure you are using python 3.
+
+In general the files are space seperated values. I included example files so you can see how explicitly each one is formatted. I also included another file with a line-by-line explanation. Each of these files is in their respective folder to their project (Soduku folder, for example, has the soduku input file example)
+
+When supplying the file name as the argument at run time, from the command line, be certain to include the extension 	(or lack thereof)
+
+An example of the correct syntax to run a program would be:
+"python3 tsp.py input.txt"
+
+In general python will spit a file-not-found error if you misnamed or it can't fine the file for any reason. If this is the case and the file is in the directory try to remove any funky characters (like dashes) as I did not do input verification.
+
+One final, inconsequential note, python will generate bytecode of the api files I created in a __pycache__ file within the runtime directory. These can safely be deleted when the program has finished running.

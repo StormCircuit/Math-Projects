@@ -1,0 +1,14 @@
+
+Gaussian Elimination
+
+As per project description any file can be run so long as you pass its name in at runtime.
+Optional flag --spp (CASE SENSITIVE!!) which puts it into partial pivoting mode
+
+EX: "python gaussian.py sys1.lin" or "python gaussian.py YourFileName.lin" are both valid
+
+I used the way the numbers were formatted on the project page for file format reading:
+1 	2	3	4	5
+6 	7	8	9	10
+11	12	13	14	15
+16	17	18	19	20
+would be a valid matrix. This also extends to decimals, you could have 0.1 in the matrix and it would be calculated in its correct position (with error)

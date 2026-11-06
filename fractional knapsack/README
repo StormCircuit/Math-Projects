@@ -1,0 +1,36 @@
+THESE PROGRAMS WILL ONLY RUN ON PYTHON3.X,
+If errors are occuring PLEASE check your python version with python --version in the command line.
+If you have python3.x installed but it is not the default runtime then you can execute with "python3 myScript.py"
+
+
+
+
+------Running either program------
+You will need a file formatted specifically with the weights, values, and max capacities. I have included an example file to check out. The filename is formatted as <filename.ext> where filename.ext is the full filename plus extension. Substitute it below for <filename.ext>, delete the "<" and the ">" if you need to.
+
+To run the program you must provide it with the filename (in the same directory, not tested otherwise) and run as follows:
+
+for the 0-1 knapsack:
+"python3 01Knapsack.py <filename.ext>"
+
+for the fractional knapsack:
+"python3 fractionalKnapsack.py <filename.ext>"
+
+
+
+
+
+------Formatting your own input file------
+Formatting is extremely simple, every array of information has its own line and is formatted like so:
+
+line1: value1 value2 value3 valueN-1 valueN
+line2: weight1 weight2 weight3 weightN-1 weightN
+line4: capacityOfKnapsack
+
+If we had a pair of (value,weight) of 3 items: (100,10), (200,3), (400,6) that has a max capacity of 10 we would do:
+
+100 200 400
+10 3 6
+10
+
+If you saved the file as "myData.txt" and wanted to use the 0-1 knapsack you would do "python3 01Knapsack.py myData.txt"

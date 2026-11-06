@@ -1,0 +1,9 @@
+This program was written in python3. In limited testing it seems to work with Python2 as well.
+
+To run with an explicit version, use "python2" or "python3" instead of simply "python" when executing.
+
+To run the program simply execute: "python interpolation.py" for random generation of numbers 
+OR 
+execute "python interpolation.py <filename>" to pull from a file with x values on first row and f(x) on second row.
+
+Included is an example file with a set of points in it, feel free to use it or not. To run the given file, for example, you would execute 'python interpolation.py exampleSet'
